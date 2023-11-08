@@ -27,7 +27,6 @@
 body {
   font-family: Roboto, sans-serif;
   background-color: #36384e;
-  overflow:;
 }
 
 .center {
@@ -65,7 +64,6 @@ body {
 .textSection p {
   margin-left: 65px;
   margin-top: 20px;
-  line-height:;
 }
 
 .textSection ul {
@@ -94,10 +92,10 @@ body {
   border-radius: 7px;
   border: 1px solid #9294a0;
   margin-top: 5px;
+  text-indent: 25px;
 }
 
 #Email::placeholder {
-  padding-left: 25px;
   font-size: 16px;
   font-family: Roboto, sans-serif;
 }
@@ -113,6 +111,10 @@ body {
   cursor: pointer;
   font-family: Roboto, sans-serif;
   border: none;
+}
+
+#newsletter:hover{
+  background: linear-gradient(90deg, rgba(255,82,112,1) 0%, rgba(255,106,58,1) 100%);
 }
 
 ul li {
@@ -222,9 +224,5 @@ ul li::before {
  body {
   background-color: white;
  }
-
-}
-
-@media (min-width: 475px) {
 
 }
