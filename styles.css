@@ -193,15 +193,25 @@ ul li::before {
   margin-left: 35px;
  }
 
+ .formCenter {
+  text-align: center;
+ }
+
+ form label {
+  float: left;
+  margin-left: 11.5px;
+ }
+
  .textSection form {
-  margin-left: auto;
-  margin-right: auto;
+  width: 92vw;
+  margin-left: 4vw;
+  margin-right: 4vw;
  }
 
  .container {
   height: 90vh;
   position: relative;
-  bottom: 46px
+  bottom: 46px;
  }
 
  ul li {
@@ -213,5 +223,8 @@ ul li::before {
   background-color: white;
  }
 
+}
+
+@media (min-width: 475px) {
 
 }
